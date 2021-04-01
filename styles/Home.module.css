@@ -3,6 +3,10 @@
   padding: 0 1rem;;
 }
 
+.navBar {
+  display: flex;
+}
+
 .header {
   background-color: #2E4172;
   padding: 0;

@@ -4,6 +4,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+
     <div className={styles.container}>
       <Head>
         <title>Saul Ordonez</title>
@@ -16,28 +17,30 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        <h2>
-          <Link href="/about-me">
-            About Me
-          </Link>
-        </h2>
-      </div>
+      <div className={styles.navBar}>
+        <div>
+          <h2>
+            <Link href="/about-me">
+              About Me
+            </Link>
+          </h2>
+        </div>
 
-      <div>
-        <h2>
-          <Link href="/projects">
-            Projects
-          </Link>
-        </h2>
-      </div>
+        <div>
+          <h2>
+            <Link href="/projects">
+              Projects
+            </Link>
+          </h2>
+        </div>
 
-      <div>
-        <h2>
-          <Link href="/contact">
-            Contact
-          </Link>
-        </h2>
+        <div>
+          <h2>
+            <Link href="/contact">
+              Contact
+            </Link>
+          </h2>
+        </div>
       </div>
 
       <footer className={styles.footer}>
