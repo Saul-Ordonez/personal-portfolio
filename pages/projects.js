@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import NavBar from '../components/NavBar'
 
 export default function Projects() {
   return (
@@ -7,6 +8,7 @@ export default function Projects() {
       <Head>
         <title>Projects</title>
       </Head>
+      <NavBar/>
       <h1>Projects</h1>
       <h2>
         <Link href="/">
