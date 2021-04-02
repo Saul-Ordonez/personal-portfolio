@@ -8,17 +8,17 @@ const NavBar = () => {
       <div className={styles.hero}>
         <div className={styles.container}>
           <div className={styles.row}>
-            <Link className={styles.col} href="/">
-              Home
+            <Link href="/">
+              <a className={styles.col}>Home</a>
             </Link>
-            <Link className={styles.col} href="../pages/about-me">
-              About Me
+            <Link href="/about-me">
+              <a className={styles.col}>About Me</a>
             </Link>
-            <Link className={styles.col} href="../pages/projects">
-              Projects
+            <Link href="/projects">
+              <a className={styles.col}>Projects</a>
             </Link>
-            <Link className={styles.col} href="../pages/contact">
-              Contact
+            <Link href="/contact">
+              <a className={styles.col}>Contact</a>
             </Link>
           </div>
         </div>
