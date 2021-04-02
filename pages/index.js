@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -16,9 +17,10 @@ export default function Home() {
         <NavBar/>
       </main>
 
-      <footer className={styles.footer}>
-        <p>copyright 2021 Saul Ordonez</p>
+      <footer>
+        <Footer />
       </footer>
+
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 
 export default function Contact() {
   return (
@@ -9,12 +10,10 @@ export default function Contact() {
         <title>Contact</title>
       </Head>
       <NavBar/>
-      <h1>Contact</h1>
-      <h2>
-        <Link href="/">
-          <a>Back to home</a>
-        </Link>
-      </h2>
+      <h2>Contact</h2>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   )
 }
