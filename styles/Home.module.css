@@ -1,16 +1,26 @@
-.navBar {
+.container {
+  margin: 0 2.5rem;
+}
+
+.header__wrapper {
+  text-align: center;
+  padding: 3.5em 0 2em 0;
+}
+
+.row {
   display: flex;
+  justify-content: space-between;
 }
 
-.header {
-  background-color: #2E4172;
-  padding: 0;
-  color: white;
+.col {
+  font-size: .85rem;
+  margin: 2.5rem 0;
 }
 
-.background {
-  padding: 0;
+.col + .col {
+  margin-left: 5rem;
 }
 
-
-
+.profile {
+  border: 1px solid red;
+}

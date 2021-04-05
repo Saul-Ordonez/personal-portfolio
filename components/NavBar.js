@@ -12,7 +12,7 @@ const NavBar = () => {
               <a className={styles.col}>Home</a>
             </Link>
             <Link href="/about-me">
-              <a className={styles.col}>About Me</a>
+              <a className={styles.col}>Me</a>
             </Link>
             <Link href="/projects">
               <a className={styles.col}>Projects</a>
