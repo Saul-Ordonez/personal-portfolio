@@ -10,6 +10,7 @@ export default function Home() {
       <Head>
         <title>Saul Ordonez</title>
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"></link>
       </Head>
 
       <main>
