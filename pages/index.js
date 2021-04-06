@@ -2,7 +2,6 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -18,13 +17,13 @@ export default function Home() {
         <div className={styles.header__wrapper}>
           <h2 className={styles.header__text}>I'm Saúl And I Love To Code.</h2>
         </div>
-        <div className={styles.profile}>
-          <Image
-            src="/profile.jpg"
-            height={200}
-            width={200}
-            alt='Saul Ordonez'
-          />
+        <div>
+          <img 
+            src="profile.jpg" 
+            alt="Saul Ordonez"
+            className={styles.profile}
+          >
+          </img>
         </div>
         <div className={styles.container}>
           <div className={styles.row}>
