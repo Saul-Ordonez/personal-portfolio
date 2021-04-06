@@ -35,6 +35,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <embed src="Saul Resume_1.pdf" height="1150px" className={styles.pdf} />
       </main>
 
       <footer>
