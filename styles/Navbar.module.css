@@ -12,3 +12,8 @@
 .col + .col {
   margin-left: 3em;
 }
+
+.col:hover {
+  color: #6FB1E6;
+  cursor: default;
+}
